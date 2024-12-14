@@ -52,7 +52,7 @@ You can access Home Assistant locally by visiting:
 Alternatively, use your local IP address, for example:  
 `http://12.0.0.34:8123`
 
-If you know the IP, **skip Step 2** and go to **Step 3**.
+If you know the IP, **skip Step 2**.
 
 ---
 
@@ -67,8 +67,19 @@ Copy the **IPv4 Address**. For example: `12.0.0.34`.
 ![Home Assistant IP](photos/home_assistant_ip.png)
 
 ---
+### Step 3: Find the To-Do List Entity ID
 
-### Step 3: Create an API Token in Home Assistant
+1. In Home Assistant, go to **To-Do lists**. [link](http://homeassistant.local:8123/todo?entity_id)
+2. Select the relevant list you want to use.
+3. In the URL, you’ll see something like:  
+   `http://homeassistant.local:8123/todo?entity_id=todo.tasks_hass_account`
+4. Copy the part after `entity_id=`. In this case:  
+   `todo.tasks_hass_account`
+
+![Find Entity ID](photos/find_todo_list_entity.png)
+
+---
+### Step 4: Create an API Token in Home Assistant
 
 1. Go to **Profile** in Home Assistant.
 2. Move from **general** to **security**. [link](http://homeassistant.local:8123/profile/security)
@@ -82,7 +93,7 @@ Copy the **IPv4 Address**. For example: `12.0.0.34`.
 
 ---
 
-### Step 4: Update `config.cpp`
+### Step 5: Update `config.cpp`
 
 Open `config.cpp` and update the following fields with your details:
 
@@ -110,13 +121,13 @@ const String listName = "todo.tasks_hass_account";
 const String accessToken = "1skF2sdfghjklkjhgfdfYHdHYmE";
 ```
 
-### Step 5: Upload the Code
+### Step 6: Upload the Code
 1. Open esp32-home-assistant-todo-list.ino in Arduino IDE.
 2. Connect your ESP32 to the computer.
 3. Select the correct Board and Port in the Arduino IDE.
 4. Click Upload.
 
-### Step 6: Run and Interact
+### Step 7: Run and Interact
 Open the Serial Monitor (set to 115200 baud).
 Use the menu to:
 Display tasks.
