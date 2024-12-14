@@ -71,9 +71,10 @@ Copy the **IPv4 Address**. For example: `12.0.0.34`.
 ### Step 3: Create an API Token in Home Assistant
 
 1. Go to **Profile** in Home Assistant.
-2. Scroll down to **Long-Lived Access Tokens**.
-3. Click **Create Token** and give it a name (e.g., `esp-todo-accessToken`).
-4. Copy the token and **save it** securely (you won’t see it again).
+2. Move from **general** to **security**. [link](http://homeassistant.local:8123/profile/security)
+4. Scroll down to **Long-Lived Access Tokens**.
+5. Click **Create Token** and give it a name (e.g., `esp-todo-accessToken`).
+6. Copy the token and **save it** securely (you won’t see it again).
 
 ⚠️ **Important**: If you lose the token, you’ll need to create a new one.
 
