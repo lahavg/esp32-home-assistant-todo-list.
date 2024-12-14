@@ -1,0 +1,26 @@
+# Arduino compiled files
+*.hex
+*.elf
+*.bin
+*.eep
+*.o
+*.d
+*.a
+*.map
+*.sym
+*.lss
+*.lst
+
+# Build folders
+build/
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# VSCode configuration
+.vscode/
