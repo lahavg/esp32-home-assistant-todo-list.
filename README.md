@@ -102,9 +102,9 @@ const char *ssid = "network_name";
 const char *password = "123456789";
 
 // Home Assistant API details
-const String baseURL = "http://10.0.0.24:8123/api/";
+const String baseURL = "http://12.0.0.34:8123/api/";
 const String listName = "todo.tasks_hass_account";
-const String accessToken = "1skF2bRzmzJN6krJp2nrawHXQK9YHdHYmE";
+const String accessToken = "1skF2sdfghjklkjhgfdfYHdHYmE";
 ```
 
 ### Step 5: Upload the Code
