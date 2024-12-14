@@ -138,5 +138,5 @@ Enter your choice (1-4):
 ## Notes
 
 - This project is a **proof of concept**. Feel free to customize it to your needs.
-- For example, you can create a graphical interface using an **ESP32 with a display module** (like the **ESP32 Yellow**).
+- For example, you can create a graphical interface using an **ESP32 with a display module** (like **esp32 2432s028**, which is very cheap).
 - Don’t forget to **credit** the original code if you share your project.
