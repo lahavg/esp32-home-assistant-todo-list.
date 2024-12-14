@@ -50,7 +50,9 @@ You can access Home Assistant locally by visiting:
 [http://homeassistant.local:8123](http://homeassistant.local:8123)
 
 Alternatively, use your local IP address, for example:  
-`http://10.0.0.24:8123`
+`http://12.0.0.34:8123`
+
+If you know the IP, **skip Step 2** and go to **Step 3**.
 
 ---
 
@@ -60,9 +62,9 @@ Alternatively, use your local IP address, for example:
 2. Go to:  
    **Settings** → **System** → **Network** → **Configure network interfaces** (three dots).
 
-Copy the **IPv4 Address**. For example: `10.0.0.24`.
+Copy the **IPv4 Address**. For example: `12.0.0.34`.
 
-![Home Assistant IP](https://your-link-to-image-1)
+![Home Assistant IP](photos/home_assistant_ip.png)
 
 ---
 
@@ -75,7 +77,7 @@ Copy the **IPv4 Address**. For example: `10.0.0.24`.
 
 ⚠️ **Important**: If you lose the token, you’ll need to create a new one.
 
-![Create Token](https://your-link-to-image-2)
+![Create Token](photos/create_home_ssistant_Tokens.png)
 
 ---
 
@@ -130,3 +132,10 @@ Example menu in Serial Monitor:
 4. Remove a To-Do Item
 Enter your choice (1-4):
 ```
+---
+
+## Notes
+
+- This project is a **proof of concept**. Feel free to customize it to your needs.
+- For example, you can create a graphical interface using an **ESP32 with a display module** (like the **ESP32 Yellow**).
+- Don’t forget to **credit** the original code if you share your project.
